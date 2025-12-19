@@ -1,8 +1,12 @@
 # ROBA-final-code
-The repository includes:
-\begin{itemize}
-  \item Firmware for the master ESP32 Feather, including joystick control, wall-following, Vive-based navigation, and autonomous attack routines.
-  \item Firmware for the slave ESP32-C3 responsible for sensor acquisition and UART communication.
-  \item Python driver station code used on the laptop for UDP-based control and mode selection.
-\end{itemize}
+## Repository Contents
+
+- **Master ESP32 Feather firmware**  
+  Implements joystick control, wall-following, Vive-based navigation, and autonomous attack routines.
+
+- **Slave ESP32-C3 firmware**  
+  Handles sensor acquisition and UART communication with the master MCU.
+
+- **Python driver station**  
+  Laptop-side control software for UDP-based command transmission and mode selection.
 
