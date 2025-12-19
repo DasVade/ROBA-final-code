@@ -10,7 +10,7 @@
 - **Python driver station**  
   Laptop-side control software for UDP-based command transmission and mode selection.
 
-## 🎥 Demonstration Videos
+## Demonstration Videos
 
 - **Autonomous Nexus Attack (Competition, 4 Hits)**  
   https://www.youtube.com/watch?v=f1X58f-0aBQ
