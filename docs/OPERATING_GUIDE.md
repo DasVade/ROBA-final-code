@@ -1,6 +1,6 @@
 # Operating the robot
 
-The preserved source is `Controller_Python.py`, `master/master.ino`, and `slave/slave.ino`. The final report explains the hardware and historical demonstrations. No firmware control law has been changed for this presentation.
+The preserved source is `Controller_Python.py`, `master/master.ino`, and `slave/slave.ino`. The final report explains the hardware and historical demonstrations.
 
 ## Install and build
 
@@ -75,4 +75,4 @@ Vive navigation uses median and exponential filtering, heading-error rotate/driv
 
 AL/AH/AN are blocking fixed-duration motor sequences. They do not use Vive feedback, obstacle replanning or bumper feedback to stop the routine. Although the report calls the attack timing nonblocking, the committed source uses `delay()`: UDP, sensing and Stop processing are delayed during those functions. Preserve that distinction when reproducing them.
 
-`S` sets motor PWM to zero but does not disarm wall following or cancel an active Vive target, so those controllers can command motion again. Switch to J before S for an idle manual state. There is no enforced UDP-loss watchdog (`lastRxMs` is recorded but not used to stop the robot); manual commands latch between updates. Software stop is not an independent emergency stop. No new hardware execution is claimed here.
+`S` sets motor PWM to zero but does not disarm wall following or cancel an active Vive target, so those controllers can command motion again. Switch to J before S for an idle manual state. There is no enforced UDP-loss watchdog (`lastRxMs` is recorded but not used to stop the robot); manual commands latch between updates. Software stop is not an independent emergency stop.
