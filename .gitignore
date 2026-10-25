@@ -1,0 +1,20 @@
+.venv/
+.tools/
+materials/
+outputs/
+build/
+__pycache__/
+*.py[cod]
+*.zip
+*.log
+.DS_Store
+._*
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+# Supplied Vive dependency is staged locally, with original credits retained.
+master/vive510.h
+master/vive510.cpp

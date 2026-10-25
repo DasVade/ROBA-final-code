@@ -1,0 +1,18 @@
+[
+  {
+    "path": "Controller_Python.py",
+    "sha256": "0b1c17c28042e53a8a1338e0edc4c8cd7eeecf003fb2364d7a7ab3ff22910bc1"
+  },
+  {
+    "path": "master/master.ino",
+    "sha256": "3cd4fc2eb229adfc7a32b3919cb776293296b507aaca0cd3c42ef660eb1d2684"
+  },
+  {
+    "path": "slave/slave.ino",
+    "sha256": "e613208f727daa4225b36de74d1be76fff25abe3d812608b5cd5961175d43992"
+  },
+  {
+    "path": "MEAM_5100_final_report.pdf",
+    "sha256": "e09f5026b5684158c24bd1d0ef0da1b0e32419f2b6b133f3bb3206a58b026080"
+  }
+]
