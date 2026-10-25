@@ -1,6 +1,6 @@
 # Selected real hardware media
 
-All photos and original video frames were supplied by the owner. All 17 archive figures were viewed; the three real assembly photos were inspected before selection. The source archive was reconciled with the existing public repository: the driver station and final report are byte-identical; archive firmware differs from the repository versions, so the current repository sketches remain the build baseline. Original sources and credits are unchanged.
+All photos and original video frames were supplied by the owner. All 17 archive figures were viewed; the three real assembly photos were inspected before selection. The source archive was reconciled with the existing public repository: the driver station and final report are byte-identical; the archive Final_Code firmware matches the repository after newline normalization (the byte differences are line endings). The repository sketches remain the build baseline. Original sources and credits are unchanged.
 
 Selected images: `real2.jpg` → robot-cover.jpg, `real.jpg` → robot-detail.jpg, `model.jpg` → cad-model.jpg, `circuit.jpg` → circuit.jpg. Images are orientation-corrected, resized proportionally and JPEG-compressed for display. The original files remain in the local source archive; no synthetic imagery was added. No team-list or competition bracket figure is published in the new presentation.
 

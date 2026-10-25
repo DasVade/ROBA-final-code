@@ -24,6 +24,6 @@ Local detailed compiler logs and build artifacts stay under ignored outputs/. Ma
 
 ## Source/report reconciliation
 
-The supplied archive includes earlier standalone experiments, an A* waypoint helper and older firmware copies. These are not imported as if they formed a tested integrated planner. Final repository firmware remains the executed build baseline. The report's statement that attack routines are nonblocking conflicts with the committed delay-based functions; the operating guide documents the actual behavior. Three control ticks for front confirmation are not three independent sensor acquisitions. Stop handling and absent link-loss watchdog behavior are also documented from code.
+The supplied archive includes earlier standalone experiments and an A* waypoint helper. Its Final_Code sketches match the repository after newline normalization; byte differences are line endings. These are not imported as if they formed a tested integrated planner. Final repository firmware remains the executed build baseline. The report's statement that attack routines are nonblocking conflicts with the committed delay-based functions; the operating guide documents the actual behavior. Three control ticks for front confirmation are not three independent sensor acquisitions. Stop handling and absent link-loss watchdog behavior are also documented from code.
 
 Developed as a Penn MEAM 5100 team project. Existing original source/report credits remain intact.
