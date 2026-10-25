@@ -1,0 +1,35 @@
+[
+  {
+    "fps": 29.938650306748468,
+    "frames": 976.0,
+    "duration_s": 32.6,
+    "width": 720.0,
+    "height": 960.0,
+    "source_file": "f9ad7077e4d004b857de5500ef0f0b52.mp4",
+    "source_sha256": "275f360c46a745855fdf3f673b70fcde6efb24c678f7dae1ee0d06f345d1fda2",
+    "display_file": "wall-traversal.mp4",
+    "display_bytes": 2389219
+  },
+  {
+    "fps": 29.88826815642458,
+    "frames": 535.0,
+    "duration_s": 17.900000000000002,
+    "width": 720.0,
+    "height": 1280.0,
+    "source_file": "f38e2fc6ee08b249e4880a0488aac80d.mp4",
+    "source_sha256": "584a16059b9d91cfb571c33c4ea06efd739b705f243cf1327d3d85998490d5b7",
+    "display_file": "arena-maneuver.mp4",
+    "display_bytes": 1389813
+  },
+  {
+    "fps": 29.876543209876544,
+    "frames": 484.0,
+    "duration_s": 16.2,
+    "width": 720.0,
+    "height": 1280.0,
+    "source_file": "5a1a08aa0adf212177431299c01d56f6.mp4",
+    "source_sha256": "8a70980f811d14971d2f5836ce58c6c6cdab83432cf393301c8d910f3913ba8c",
+    "display_file": "contact-sequence.mp4",
+    "display_bytes": 1442772
+  }
+]

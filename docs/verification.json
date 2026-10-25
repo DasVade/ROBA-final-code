@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "python": "3.12.14",
+  "pygame": "2.6.1",
+  "software_tests": 3,
+  "hardware_execution": false,
+  "arduino_cli": "1.5.2-rc.1",
+  "esp32_core": "3.3.2",
+  "tof_library": "Adafruit_VL53L0X 1.2.5",
+  "firmware": [
+    {
+      "name": "master",
+      "fqbn": "esp32:esp32:um_feathers2",
+      "status": "compiled",
+      "flash_bytes": 933054,
+      "ram_bytes": 62100
+    },
+    {
+      "name": "slave",
+      "fqbn": "esp32:esp32:m5stack_stamp_c3",
+      "status": "compiled",
+      "flash_bytes": 326654,
+      "ram_bytes": 13976,
+      "environment_workaround": "Short junction path to local RISC-V toolchain supplied through compiler.path; no firmware changes"
+    }
+  ]
+}
