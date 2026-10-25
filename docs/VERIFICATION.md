@@ -1,6 +1,6 @@
-# Executed verification
+# Build and software checks
 
-October 24, 2026. No robot was connected or commanded. Historical hardware footage and report observations are kept separate from these software/build checks.
+Software tests and firmware builds completed October 24, 2026.
 
 | Check | Result |
 |---|---|
@@ -20,10 +20,10 @@ New-Item -ItemType Junction -Path TOOLCHAIN_ALIAS -Target TOOLCHAIN_ROOT
 arduino-cli compile --fqbn esp32:esp32:m5stack_stamp_c3 --build-property 'compiler.path=TOOLCHAIN_ALIAS/bin/' 'outputs/firmware/slave'
 ```
 
-Local detailed compiler logs and build artifacts stay under ignored outputs/. Machine-readable summaries are in verification.json. These builds verify compatibility with the named targets and dependencies; they do not verify electrical wiring, board identity on a connected robot, timing under load, sensing accuracy or hardware performance.
+Local detailed compiler logs and build artifacts stay under ignored outputs/. Machine-readable summaries are in verification.json. The builds check compatibility with the named board targets and dependencies. Wiring, power and operational checks are in the operating guide.
 
 ## Source/report reconciliation
 
-The supplied archive includes earlier standalone experiments and an A* waypoint helper. Its Final_Code sketches match the repository after newline normalization; byte differences are line endings. These are not imported as if they formed a tested integrated planner. Final repository firmware remains the executed build baseline. The report's statement that attack routines are nonblocking conflicts with the committed delay-based functions; the operating guide documents the actual behavior. Three control ticks for front confirmation are not three independent sensor acquisitions. Stop handling and absent link-loss watchdog behavior are also documented from code.
+The supplied archive includes earlier standalone experiments and an A* waypoint helper. Its Final_Code sketches match the repository after newline normalization; byte differences are line endings. The integrated firmware uses the repository master/slave sketches; the A* helper is a standalone archive experiment. The report's statement that attack routines are nonblocking conflicts with the committed delay-based functions; the operating guide documents the actual behavior. Three control ticks for front confirmation are not three independent sensor acquisitions. Stop handling and absent link-loss watchdog behavior are also documented from code.
 
 Developed as a Penn MEAM 5100 team project. Existing original source/report credits remain intact.

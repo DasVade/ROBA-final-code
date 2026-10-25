@@ -6,7 +6,7 @@ A four-wheel competition robot integrating an Xbox/Python driver station, an ESP
 
 [![Recorded arena traversal beside a wall](docs/assets/wall-traversal-poster.jpg)](https://yixiaoliu.me/projects/roba-mobile-robot/#demonstrations)
 
-*Real hardware footage: traversal alongside the arena boundary followed by a turn. Open the project page for three controlled-playback clips. The footage is historical; no fresh hardware run or navigation-accuracy benchmark is claimed.*
+*Real hardware footage: traversal alongside the arena boundary followed by a turn. Open the project page for three controlled-playback clips. Recorded during the team project.*
 
 [Project page and videos](https://yixiaoliu.me/projects/roba-mobile-robot/) · [Final report](MEAM_5100_final_report.pdf) · [Operating guide](docs/OPERATING_GUIDE.md)
 
@@ -53,10 +53,10 @@ Firmware uses Arduino-ESP32, Adafruit VL53L0X, and the original Penn Vive interf
 
 ## Demonstrations and engineering observations
 
-The [project page](https://yixiaoliu.me/projects/roba-mobile-robot/) includes full-length, same-speed clips of wall-side traversal, an arena maneuver and a target-contact sequence, plus mechanism and electronics photos. The [report](MEAM_5100_final_report.pdf) documents a third-place **alliance** finish; this is not an individual ranking or a success-rate measurement.
+The [project page](https://yixiaoliu.me/projects/roba-mobile-robot/) includes full-length, same-speed clips of wall-side traversal, an arena maneuver and a target-contact sequence, plus mechanism and electronics photos. Our team placed third in the Penn MEAM 5100 robotics competition, competing in the alliance format described in the [report](MEAM_5100_final_report.pdf).
 
-Report-linked historical recordings: [competition nexus routine](https://www.youtube.com/watch?v=f1X58f-0aBQ) and [high-tower test](https://www.youtube.com/shorts/K8pAkWYsFU8). Their task labels come from the original report. Local display clips are captioned by visible behavior, not assumed mode telemetry.
+Report-linked historical recordings: [competition nexus routine](https://www.youtube.com/watch?v=f1X58f-0aBQ) and [high-tower test](https://www.youtube.com/shorts/K8pAkWYsFU8). The report provides context for the competition routines.
 
-Vive noise motivated using timed sequences for capture tasks. The committed attack functions use blocking `delay()` calls despite the report's nonblocking description. There is no enforced UDP-loss watchdog; S does not cancel active navigation. Those preserved limitations, supply/logic-level requirements and reproduction conditions are detailed in the operating guide. No new hardware test is claimed.
+Vive noise motivated using timed sequences for capture tasks. The committed attack functions use blocking `delay()` calls despite the report's nonblocking description. There is no enforced UDP-loss watchdog; S does not cancel active navigation. Those preserved limitations, supply/logic-level requirements and reproduction conditions are detailed in the operating guide.
 
 Developed as a Penn MEAM 5100 team project.
