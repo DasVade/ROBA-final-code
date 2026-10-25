@@ -16,5 +16,7 @@ class DriverTests(unittest.TestCase):
         import hashlib,json
         root=Path(__file__).resolve().parents[1]
         for item in json.loads((root/'docs/source_manifest.json').read_text()):
-            self.assertEqual(hashlib.sha256((root/item['path']).read_bytes()).hexdigest(),item['sha256'],item['path'])
+            data=(root/item['path']).read_bytes()
+            if item['normalization']=='LF':data=data.replace(b'\r\n',b'\n')
+            self.assertEqual(hashlib.sha256(data).hexdigest(),item['sha256'],item['path'])
 if __name__=='__main__':unittest.main()
