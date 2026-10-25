@@ -1,12 +1,14 @@
 # ROBA: ESP32 Mobile Robot and Driver Station
 
+**Project date:** Fall 2025
+
 A four-wheel competition robot integrating an Xbox/Python driver station, an ESP32 master and sensor slave, range-feedback wall following, Vive target navigation, and a servo mechanism. Operator commands and onboard sensing feed a common motor-control system; fixed-time attack routines are kept distinct from feedback navigation.
 
 <img src="docs/assets/robot-cover.jpg" width="720" alt="Assembled ROBA robot with MDF chassis, four-wheel drivetrain, top servo mechanism and exposed control electronics">
 
 [![Recorded arena traversal beside a wall](docs/assets/wall-traversal-poster.jpg)](https://yixiaoliu.me/projects/roba-mobile-robot/#demonstrations)
 
-*Real hardware footage: traversal alongside the arena boundary followed by a turn. Open the project page for three controlled-playback clips. Recorded during the team project.*
+*Real hardware footage: traversal alongside the arena boundary followed by a turn. Open the project page for three arena demonstrations with original audio.*
 
 [Project page and videos](https://yixiaoliu.me/projects/roba-mobile-robot/) · [Final report](MEAM_5100_final_report.pdf) · [Operating guide](docs/OPERATING_GUIDE.md)
 
@@ -57,6 +59,6 @@ The [project page](https://yixiaoliu.me/projects/roba-mobile-robot/) includes fu
 
 Report-linked historical recordings: [competition nexus routine](https://www.youtube.com/watch?v=f1X58f-0aBQ) and [high-tower test](https://www.youtube.com/shorts/K8pAkWYsFU8). The report provides context for the competition routines.
 
-Vive noise motivated using timed sequences for capture tasks. The committed attack functions use blocking `delay()` calls despite the report's nonblocking description. There is no enforced UDP-loss watchdog; S does not cancel active navigation. Those preserved limitations, supply/logic-level requirements and reproduction conditions are detailed in the operating guide.
+Vive noise motivated timed capture routines. See the [operating guide](docs/OPERATING_GUIDE.md) for setup, mode cancellation, stop handling and link-loss behavior.
 
 Developed as a Penn MEAM 5100 team project.

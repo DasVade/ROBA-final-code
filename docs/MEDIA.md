@@ -1,13 +1,16 @@
-# Demonstration assets
+# ROBA demonstration media
 
-Photos show the assembled robot, mechanism and electronics from the team project. The architecture SVG documents the implemented connections: UART carries distance data; I²C is the optional TopHat packet-count link.
+The project page presents three complete arena recordings with original audio:
 
-## Video sources
-
-| Display asset | Original recording | Duration | Scene |
+| Display asset | Supplied recording | Duration | Demonstration |
 |---|---|---:|---|
-| `wall-traversal.mp4` | `f9ad7077e4d004b857de5500ef0f0b52.mp4` | 32.6 s | Traversal beside the right arena boundary and a turn |
-| `arena-maneuver.mp4` | `f38e2fc6ee08b249e4880a0488aac80d.mp4` | 17.9 s | Corridor travel and heading change |
-| `contact-sequence.mp4` | `5a1a08aa0adf212177431299c01d56f6.mp4` | 16.2 s | Approach and repeated contact motion at a field target |
+| `wall-traversal.mp4` | `537f8fdbea432ea07f1c5369ed34f25e.mp4` | 32.6 s | Right-boundary traversal and turn |
+| `arena-maneuver.mp4` | `8f84ee4a568ab6993aa1afe72c836aff.mp4` | 17.9 s | Corridor travel and heading change |
+| `contact-sequence.mp4` | `e92f94646d59cfd395c4f71e26f5812c.mp4` | 16.2 s | Approach and repeated target contact |
 
-Display videos retain each complete clip, original aspect ratio and elapsed time. H.264 copies omit audio for browser playback. Posters use original video frames. The project page also links the report's competition nexus and high-tower recordings.
+Display files use H.264 video, the original AAC audio stream and fast-start MP4.
+Framing, aspect ratios and elapsed time are preserved. Native controls provide
+playback, seeking, volume and mute. Posters are original frames at 2 s.
+
+[Watch the demonstrations](https://yixiaoliu.me/projects/roba-mobile-robot/#demonstrations).
+The repository README links the matching wall-traversal poster to this section.
